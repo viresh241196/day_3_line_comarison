@@ -8,7 +8,6 @@ public class Line_comparison_problem {
             System.out.println("length1 is greater than length2");
         else
             System.out.println("length1 is shorter than length2");
-
     }
 
     static double calculate_length() {
