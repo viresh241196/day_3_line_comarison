@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class line_comparison_problem {
+public class Line_comparison_problem {
         public static void main(String[] args) {
 		Scanner myobj = new Scanner(System.in);
 		System.out.println("enter x1 and y1 values");
@@ -10,8 +10,6 @@ public class line_comparison_problem {
                 int y2 = myobj.nextInt();
 		double length1 = Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
 		System.out.println("length1: "+length1);
-
-
 		System.out.println("enter a1 and b1 values");
                 int a1 = myobj.nextInt();
                 int b1 = myobj.nextInt();
